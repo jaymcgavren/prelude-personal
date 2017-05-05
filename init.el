@@ -1,3 +1,5 @@
+(add-hook 'prelude-prog-mode-hook (lambda () (smartparens-mode -1)) t) ;; Disable smartparens
+
 (setq prelude-clean-whitespace-on-save nil)
 
 (defun copy-from-osx ()
