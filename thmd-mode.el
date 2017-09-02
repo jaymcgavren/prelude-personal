@@ -6,7 +6,7 @@
 
 (defun thmd-insert-onset ()
   (interactive)
-  (thmd-insert-element "ONSET" 2))
+  (thmd-insert-element "ONSET" 3))
 
 (defun thmd-insert-keynote ()
   (interactive)
