@@ -40,6 +40,17 @@
   (insert "## Video: ")
   (open-line 2))
 
+;; TODO this code is almost certainly non-idiomatic.
+(defun thmd-code-span-select-forward ()
+  (interactive)
+  (re-search-forward "`.*`")
+  (search-backward "`")
+  (search-backward "`")
+  (skip-chars-forward "`")
+  (set-mark (point))
+  (search-forward "`")
+  (skip-chars-backward "`"))
+
 (defvar thmd-mode-map (make-sparse-keymap)
   "Keymap for `thmd-mode'.")
 
@@ -49,6 +60,7 @@
 (define-key thmd-mode-map (kbd "C-c C-c") #'thmd-insert-screencast)
 (define-key thmd-mode-map (kbd "C-c C-s") #'thmd-insert-stage)
 (define-key thmd-mode-map (kbd "C-c C-v") #'thmd-insert-video)
+(define-key thmd-mode-map (kbd "C-c `") #'thmd-code-span-select-forward)
 
 ;;;###autoload
 (define-minor-mode thmd-mode
