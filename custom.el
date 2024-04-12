@@ -6,7 +6,7 @@
  '(global-company-mode nil)
  '(js-indent-level 2)
  '(package-selected-packages
-   '(chruby rubocop wgrep-ag wgrep ruby-refactor textile-mode rspec-mode golint csharp-mode yasnippet scss-mode sass-mode yaml-mode zop-to-char zenburn-theme which-key volatile-highlights vkill undo-tree toggle-test smex smartrep smartparens smart-mode-line rainbow-mode rainbow-delimiters projectile ov operate-on-number move-text markdown-mode magit json-mode js2-mode imenu-anywhere ido-vertical-mode ido-ubiquitous guru-mode grizzl god-mode go-mode gitignore-mode gitconfig-mode git-timemachine git-link gist geiser flycheck flx-ido expand-region exec-path-from-shell elisp-slime-nav editorconfig easy-kill dockerfile-mode discover-my-major diminish diff-hl csv-mode crux company coffee-mode browse-kill-ring beacon anzu ag ace-window))
+   '(org-jira chruby rubocop ruby-refactor textile-mode rspec-mode golint csharp-mode yasnippet scss-mode sass-mode yaml-mode zop-to-char zenburn-theme which-key volatile-highlights vkill undo-tree toggle-test smex smartrep smartparens smart-mode-line rainbow-mode rainbow-delimiters projectile ov operate-on-number move-text markdown-mode magit json-mode js2-mode imenu-anywhere ido-vertical-mode ido-ubiquitous guru-mode grizzl god-mode go-mode gitignore-mode gitconfig-mode git-timemachine git-link gist geiser flycheck flx-ido expand-region exec-path-from-shell elisp-slime-nav editorconfig easy-kill dockerfile-mode discover-my-major diminish diff-hl csv-mode crux company coffee-mode browse-kill-ring beacon anzu ag ace-window))
  '(smartparens-global-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
