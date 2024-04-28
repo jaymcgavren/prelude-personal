@@ -13,9 +13,6 @@
                             ("\x2019" . "'"))
                           nil beg end))
 
-; Keep projectile-ag, etc. from splitting window.
-(setq pop-up-windows nil)
-
 (setq ruby-deep-indent-paren nil)
 
 ; Test toggle setup.
