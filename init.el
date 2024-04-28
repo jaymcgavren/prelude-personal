@@ -15,9 +15,5 @@
 
 (setq ruby-deep-indent-paren nil)
 
-; Test toggle setup.
-(global-set-key (kbd "C-c t") 'tgt-toggle)
-(setq tgt-open-in-new-window 'nil)
-
 ;; Keep magit from asking which remote branch to push to.
 (setq magit-push-always-verify nil)
