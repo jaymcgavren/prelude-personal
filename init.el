@@ -16,11 +16,6 @@
 ; Keep projectile-ag, etc. from splitting window.
 (setq pop-up-windows nil)
 
-; Highlight current line.
-(global-hl-line-mode 1)
-(set-face-background 'hl-line "#333300")
-(set-face-foreground 'highlight nil) ; Keep syntax highlighting.
-
 (setq ruby-deep-indent-paren nil)
 
 ; ido normally lists options horizontally, which is highly unreadable.
