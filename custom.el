@@ -3,7 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(copilot-node-executable "/Users/jay/.nvm/versions/node/v16.20.1/bin/node")
  '(package-selected-packages
    '(ace-window ag anaconda-mode anzu browse-kill-ring company consult copilot
                 counsel crux diff-hl diminish discover-my-major easy-kill
