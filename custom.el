@@ -6,7 +6,16 @@
  '(copilot-node-executable "/Users/jay/.nvm/versions/node/v16.20.1/bin/node")
  '(js-indent-level 2)
  '(package-selected-packages
-   '(textile-mode quelpa-use-package use-package quelpa rg go-mode scss-mode csv-mode ruby-refactor dockerfile-mode wgrep-ag pythonic anaconda-mode d-mode helm-projectile helm markdown-mode multiple-cursors rspec-mode toggle-test ido-vertical-mode git-link yaml-mode web-mode lsp-ui lsp-mode json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company counsel swiper ivy exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree super-save smartrep smartparens operate-on-number nlinum move-text magit projectile imenu-anywhere hl-todo guru-mode git-modes git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major crux browse-kill-ring anzu ag ace-window)))
+   '(ace-window ag anaconda-mode anzu browse-kill-ring company consult copilot
+                counsel crux diff-hl diminish discover-my-major easy-kill
+                elisp-slime-nav epl exec-path-from-shell expand-region flx-ido
+                flycheck gist git-modes git-timemachine guru-mode hl-todo
+                ido-vertical-mode imenu-anywhere inf-ruby js2-mode json-mode
+                lsp-ui magit move-text nlinum operate-on-number orderless
+                projectile quelpa-use-package rainbow-delimiters rainbow-mode
+                smartparens smartrep super-save undo-tree vertico
+                volatile-highlights web-mode yaml-mode yari yasnippet
+                zenburn-theme zop-to-char)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
