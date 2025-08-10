@@ -9,9 +9,9 @@
                 elisp-slime-nav epl exec-path-from-shell expand-region flx-ido
                 flycheck gist git-modes git-timemachine guru-mode hl-todo
                 ido-vertical-mode imenu-anywhere inf-ruby js2-mode json-mode
-                lsp-ui magit move-text nlinum operate-on-number orderless
-                projectile quelpa-use-package rainbow-delimiters rainbow-mode
-                smartparens smartrep super-save undo-tree vertico
+                lsp-ui lua-mode magit move-text nlinum operate-on-number
+                orderless projectile quelpa-use-package rainbow-delimiters
+                rainbow-mode smartparens smartrep super-save undo-tree vertico
                 volatile-highlights web-mode yaml-mode yari yasnippet
                 zenburn-theme zop-to-char)))
 (custom-set-faces
