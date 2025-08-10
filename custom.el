@@ -13,7 +13,8 @@
                 orderless projectile quelpa-use-package rainbow-delimiters
                 rainbow-mode smartparens smartrep super-save undo-tree vertico
                 volatile-highlights web-mode yaml-mode yari yasnippet
-                zenburn-theme zop-to-char)))
+                zenburn-theme zop-to-char))
+ '(projectile-completion-system 'ivy))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
