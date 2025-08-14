@@ -3,8 +3,19 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages nil)
- '(projectile-completion-system 'ivy))
+ '(package-selected-packages
+   '(ace-window ag anaconda-mode anzu browse-kill-ring company consult counsel crux
+                diff-hl diminish discover-my-major easy-kill elisp-slime-nav epl
+                exec-path-from-shell expand-region flx-ido flycheck gist
+                git-link git-modes git-timemachine guru-mode haml-mode hl-todo
+                ido-vertical-mode imenu-anywhere inf-ruby js2-mode json-mode
+                lsp-ui lua-mode magit move-text nlinum operate-on-number
+                orderless projectile quelpa-use-package rainbow-delimiters
+                rainbow-mode smartparens smartrep super-save textile-mode
+                undo-tree vertico volatile-highlights web-mode yaml-mode yari
+                yasnippet zenburn-theme zop-to-char))
+ '(projectile-completion-system 'ivy)
+ '(safe-local-variable-values '((haml-indent-offset . 2))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
