@@ -11,9 +11,9 @@
                 ido-vertical-mode imenu-anywhere inf-ruby js2-mode json-mode
                 lsp-ui lua-mode magit move-text nlinum operate-on-number
                 orderless projectile quelpa-use-package rainbow-delimiters
-                rainbow-mode smartparens smartrep super-save textile-mode
-                undo-tree vertico volatile-highlights web-mode yaml-mode yari
-                yasnippet zenburn-theme zop-to-char))
+                rainbow-mode rg smartparens smartrep super-save textile-mode
+                undo-tree vertico volatile-highlights web-mode wgrep yaml-mode
+                yari yasnippet zenburn-theme zop-to-char))
  '(projectile-completion-system 'ivy)
  '(safe-local-variable-values '((haml-indent-offset . 2))))
 (custom-set-faces
