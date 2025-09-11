@@ -15,6 +15,7 @@
                 undo-tree vertico volatile-highlights web-mode wgrep yaml-mode
                 yari yasnippet zenburn-theme zop-to-char))
  '(projectile-completion-system 'ivy)
+ '(rg-command-line-flags '("--sort path"))
  '(safe-local-variable-values '((haml-indent-offset . 2))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
